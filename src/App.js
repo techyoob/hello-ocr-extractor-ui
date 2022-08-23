@@ -86,6 +86,7 @@ const url = process.env.REACT_APP_HELLO_OCR_API
 
   const handleSubmission = () => {
 
+    console.log(" the fetch url is ", url);
     if(mutation.isLoading){
       mutation.reset();
       return;
