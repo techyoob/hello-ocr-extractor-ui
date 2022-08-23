@@ -1,0 +1,28 @@
+
+
+
+
+
+.message-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 420px;
+    height: 280px;
+    background-color: thistle;
+}
+
+.file-selector-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    height: 80px;
+    width: 450px;
+    min-width: 350px;
+    border-radius: 10px;
+    border: dashed 1px black;
+    margin-bottom: 15px;
+    background-color: rgb(226, 223, 219);
+}
