@@ -57,7 +57,14 @@ const url = process.env.REACT_APP_HELLO_OCR_API
 
 
   const mutation = useMutation(newFormData => {
-    return axios.post(url, newFormData)
+    return axios.post(url, 
+                    newFormData,
+                    {
+                      headers: {
+                          'Content-Type': 'application/json',
+                        },
+                      withCredentials: false
+                    })
                 .then((res) => res?.data);
   })
 
