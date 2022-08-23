@@ -104,6 +104,9 @@ const url = process.env.REACT_APP_HELLO_OCR_API
   }
 
 
+  console.log(" am here and there ");
+
+
   return (
     <div className="App">
       <div className='welcome-message-container'>
