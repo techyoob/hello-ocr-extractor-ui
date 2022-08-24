@@ -63,7 +63,7 @@ const url = process.env.REACT_APP_HELLO_OCR_API
                       headers: {
                           'Content-Type': 'application/json',
                         },
-                      withCredentials: false
+                      withCredentials: true
                     })
                 .then((res) => res?.data);
   })
